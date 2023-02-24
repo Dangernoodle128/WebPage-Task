@@ -21,7 +21,7 @@ function myFunction(x) {
         but.innerHTML=btn[i];
       }
   setInterval(() => {
-    i=i+1
+    i=i+1;
     if(i>2){
       i=0
     }
