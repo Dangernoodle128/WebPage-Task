@@ -14,13 +14,16 @@ function myFunction(x) {
       p1.innerText=text1[i];
       p2.innerHTM=text2[i];
       but.innerHTML=btn[i];
+      function slider(i){
+        img.innerHTML=`<img src=${i}.jpg class="fade" alt=${i} />`
+        p1.innerText=text1[i];
+        p2.innerHTML=text2[i];
+        but.innerHTML=btn[i];
+      }
   setInterval(() => {
     i=i+1
     if(i>2){
       i=0
     }
-      img.innerHTML=`<img src=${i}.jpg class="fade" alt=${i} />`
-      p1.innerText=text1[i];
-      p2.innerHTML=text2[i];
-      but.innerHTML=btn[i];
-  }, 3000);
+     slider(i)
+  }, 5000);
