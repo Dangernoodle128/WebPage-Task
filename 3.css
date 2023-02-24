@@ -1,0 +1,539 @@
+body{
+    overflow-x: hidden;
+}
+*{
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; 
+}
+.bar1, .bar2, .bar3 {
+    width: 20px;
+    height: 2px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+    display: none;
+  }
+  
+  .change .bar1 {
+    transform: translate(0, 8px) rotate(-45deg);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    transform: translate(0, -8px) rotate(45deg);
+}
+.one{
+    color: orangered;
+}
+.title{
+    position: relative;
+    left: -120px;
+    font-size: 26px;
+    top: -5px;
+    font-weight: 900;
+}
+.title p{
+    font-weight: 700;
+    font-size: 25px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    height: 37px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    position: relative;
+    left: -70px;
+    top: 0px;
+}
+ul li a{
+    display: flex;
+    text-decoration: none;
+    color: inherit;
+}
+ul li{
+    display: flex;
+    align-content: space-between;
+    padding-inline: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #a3a3a3;
+    padding-bottom: 10px;
+}
+#product{
+    color: orangered;
+    border-bottom: solid 2px orangered !important;
+}
+li:hover{
+    color: orangered;
+    border-bottom:2px solid #a3a3a3da;
+}
+i{
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+    padding-left: 20px;
+    height: 20px;
+    color: #a3a3a3;
+    position: relative;
+    right: 10px;
+    top: -5px;
+}
+i:hover{
+    color: orangered;
+}
+.box2{
+    background-color: aliceblue;
+    height: 350px;
+}
+.box2 p{
+    font-size: 65px;
+    font-weight: 800;
+    position: relative;
+    top: 90px;
+    left: 150px;
+}
+.box3 p{
+    font-size: 50px;
+    font-weight: 800;
+    position: relative;
+    top: 80px;
+    left: 100px;
+}
+.box4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    top: 80px;
+}
+#pp1 img{
+    height: 350px;
+    width: 350px;
+    position: relative;
+    left: 64px;
+}
+#pp1 p{
+    color: grey;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: white;
+    width: 80px;
+    padding: 3px;
+    position: relative;
+    top: -350px;
+    left: 85px;
+}
+#pp1 i{
+    position: relative;
+    top: -390px;
+    left: 355px;
+    color: white;
+}
+#pp1 i:hover{
+    color: red;
+}
+#pp2 img{
+    height: 350px;
+    width: 350px;
+}
+#pp2 p{
+    position: relative;
+    color: grey;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: white;
+    width: 66px;
+    padding: 5px;
+    top: -350px;
+    left: 19px;
+}
+#pp2 i{
+    position: relative;
+    top: -390px;
+    left: 292px;
+    color: white;
+}
+#pp2 i:hover{
+    color: red;
+}
+#pp3 img{
+    height: 350px;
+    width: 350px;
+    position: relative;
+    right: 64px;
+}
+#pp3 i{
+    position: relative;
+    top: -315px;
+    right: 125px;
+    color: white;
+}
+#pp3 i:hover{
+    color: red;
+}
+.box5{
+    display: flex;
+    position: relative;
+    height: 200px;
+    flex-direction: row;
+    left: 120px;
+    top: 0px;
+}
+#b7{
+    position: relative;
+    left:15px;
+}
+#b7 i{
+    color: grey;
+    position: relative;
+    top: -47px;
+    left: 255px;
+}
+#b7 p{
+    font-size: 15px;
+    color: grey;
+    position: relative;
+    top: -57px;
+}
+#b7 h2 a{
+    text-decoration: none;
+    color: black;
+}
+#b7 h2 a:hover{
+    color: orangered;
+}
+#b71{    
+    position: relative;
+    right: -132px;
+}
+#b71 i{
+    color: grey;
+    top: -47px;
+    right: -265px;
+}
+#b71 p{
+    font-size: 15px;
+    color: grey;
+    position: relative;
+    top: -57px;
+}
+#b71 h2 a{
+    text-decoration: none;
+    color: black;
+}
+#b71 h2 a:hover{
+    color: orangered;
+}
+#b72{
+    position: relative;
+    right: -363px;
+}
+#b72 i{
+    color: grey;
+    top: -47px;
+    right: -265px;
+}
+#b72 p{
+    font-size: 15px;
+    color: grey;
+    position: relative;
+    top: -57px;
+}
+#b72 h2 a{
+    text-decoration: none;
+    color: black;
+}
+#b72 h2 a:hover{
+    color: orangered;
+}
+.box8{
+    display: flex;
+    justify-content: center;
+}
+.box6 p{
+    font-size: 50px;
+    font-weight: 800;
+    position: relative;
+    left: 100px;
+    top: -100px;
+}
+.box7{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    top: -99px;
+}
+#pp4 img{
+    height: 350px;
+    width: 350px;
+    position: relative;
+    left: 64px;
+}
+#pp4 p{
+    color: grey;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: white;
+    width: 61px;
+    padding: 3px;
+    position: relative;
+    top: -350px;
+    left: 85px;
+}
+#pp4 i{
+    position: relative;
+    top: -390px;
+    left: 355px;
+    color: white;
+}
+#pp4 i:hover{
+    color: red;
+}
+#pp5 img{
+    height: 350px;
+    width: 350px;
+    position: relative;
+    right: -24px;
+}
+#pp5 i{
+    position: relative;
+    top: -315px;
+    right: 39px;
+    color: white;
+}
+#pp5 i:hover{
+    color: red;
+}
+#pp6 img{
+    height: 350px;
+    width: 350px;
+    position: relative;
+    right: 64px;
+}
+#pp6 i{
+    position: relative;
+    top: -315px;
+    right: 125px;
+    color: white;
+}
+#pp6 i:hover{
+    color: red;
+}
+.box8{
+    display: flex;
+    position: relative;
+    height: 200px;
+    flex-direction: row;
+    left: -290px;
+    top: -170px;
+}
+#b8{
+    position: relative;
+    left:15px;
+}
+#b8 i{
+    color: grey;
+    position: relative;
+    top: -47px;
+    left: 255px;
+}
+#b8 p{
+    font-size: 15px;
+    color: grey;
+    position: relative;
+    top: -57px;
+}
+#b8 h2 a{
+    text-decoration: none;
+    color: black;
+}
+#b8 h2 a:hover{
+    color: orangered;
+}
+#b81{    
+    position: relative;
+    right: -142px;
+}
+#b81 i{
+    color: grey;
+    top: -47px;
+    right: -265px;
+}
+#b81 p{
+    font-size: 15px;
+    color: grey;
+    position: relative;
+    top: -57px;
+}
+#b81 h2 a{
+    text-decoration: none;
+    color: black;
+}
+#b81 h2 a:hover{
+    color: orangered;
+}
+#b82{
+    position: relative;
+    right: -410px;
+}
+#b82 i{
+    color: grey;
+    top: -47px;
+    right: -265px;
+}
+#b82 p{
+    font-size: 15px;
+    color: grey;
+    position: relative;
+    top: -57px;
+}
+#b82 h2 a{
+    text-decoration: none;
+    color: black;
+}
+#b82 h2 a:hover{
+    color: orangered;
+}
+.box9{
+    background-color: rgb(8, 8, 8);
+    height: 400px;
+    position: relative;
+    bottom: 140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+}
+#b94{
+    position: relative;
+    top: 60px;
+    right: 30px;
+    overflow: hidden;
+}
+#b94 h2{
+    color: white;
+}
+.fa-whatsapp{
+    position: relative;
+    right: 53px;
+}
+.fa-instagram{
+    position: relative;
+    right: 93px;
+}
+.fa-skype{
+    position: relative;
+    right: 130px;
+}
+#b94 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: none;
+}
+#b94 ul li:hover{
+    border: none;
+}
+#b94 ul li a i:hover{
+    color: white;
+}
+#b93 ul{
+    display: flex;
+    flex-direction: column;
+    top: 105px;
+}
+#b93 ul li a{
+    font-size: 17px;
+}
+#b93 ul li:hover{
+    border: none;
+    color: white;
+}
+#b93 ul li a:hover{
+    color: white;
+}
+#b92{
+    position: relative;
+    top: 42px;
+    left: 70px;
+    overflow: hidden;
+}
+#b92 p{
+    font-size: 26px;
+    font-weight: 700;
+    color: white;
+}
+#b92 ul{
+    position: relative;
+    left: -60px;
+}
+#b92 ul{
+    display: flex;
+    flex-direction: column;
+}
+#b92 ul li:hover{
+    border: none;
+    color: white;
+}
+#b92 ul li a:hover{
+    color: white;
+}
+#b91{
+    position: relative;
+    top: 25px;
+    left: 100px;
+    overflow: hidden;
+}
+#b911 a{
+    color: gray;
+    text-decoration: none;
+}
+#b911 a:hover{
+    color: orangered;
+}
+#b911{
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+}
+#b912 ,#b913{
+    color: gray;
+    font-size: 19px;
+}
+#b913 a{
+    text-decoration: none;
+    color: gray;
+}
+#b913 a:hover{
+    color: orangered;
+}
+
+
+@media only screen and (max-width: 600px) {
+    ul{
+     display: none;
+    }
+    .title{
+     position: relative;
+     left: 55px;
+    }
+    .bar1, .bar2, .bar3{
+     display: block;
+    }
+    i{
+     position: relative;
+     right: 20px;
+     top: 5px;
+    }
+}
